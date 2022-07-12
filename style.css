@@ -1,13 +1,13 @@
 body{
-     background-color: #5fffea75; /* light Blue background */
-     font-family: Verdana, Geneva, Tahoma, sans-serif; /* Main Website font */
-     font-size: 16px; /* Default website font-size */
-     text-align: center; /* Default Text orientation */
+     background-color: #5fffea75; 
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     font-size: 16px; 
+     text-align: center; 
 }
 .container{
-    width: 80%; /* making website to be boxed */
-    background-color: white; /* White website background */
-    margin: 0 auto; /* Aligning the website center */
+    width: 80%; 
+    background-color: white; 
+    margin: 0 auto; 
 }
 h1.title{
     text-align: left!important;
@@ -22,16 +22,15 @@ h1.title:hover{
     transition: ease-in-out .7s;
 }
 
-/* Navigation Bar */
 .top-menu{
-    background-color: brown; /* Assigning brown color */
-    overflow: hidden; /* Hiding the text overflows */
+    background-color: brown; 
+    overflow: hidden; 
 }
 .top-menu ul li{
-    list-style-type: none; /* Removing the unordered List bullets or markers */
-    float: left; /* Align the list items horizontally */
-    border-right: 2px solid #5fffea; /* Adding the white border */
-    padding: 5px 10px; /* Adding some space: vertical and horizontal */
+    list-style-type: none; 
+    float: left; 
+    border-right: 2px solid #5fffea; 
+    padding: 5px 10px; 
 }
 .top-menu ul li a{
     text-decoration: none;
@@ -45,4 +44,8 @@ h1.title:hover{
 .top-menu ul li:hover a{
     text-decoration: underline;
     color: brown;
+}
+.main-img{
+    width: 100%;
+    height: 50vh;
 }
